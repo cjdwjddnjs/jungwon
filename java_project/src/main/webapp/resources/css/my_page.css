@@ -1,0 +1,410 @@
+/* 나눔고딕 */
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+
+body, html{
+  font-family: 'Nanum Gothic', sans-serif;
+  height: 100%;
+}
+
+/* 드롭다운 바 */
+header{
+  background-color: #F9FDCC;
+  width: 100% !important;
+}
+.navbar {
+  background-color: #F9FDCC;
+}
+/* 메뉴 */
+div.menu{
+  align-items: center;
+  margin-right: auto;
+  margin-left: 40%;
+  font-size: 18px;
+  font-weight: bold;
+}  
+/* 로고 */
+.navbar-brand{
+  font-size: 30px;
+  font-style : italic;
+  margin: 20px;
+  font-weight: bold;
+}
+/* 로그인, 회원가입*/
+#bs-example-navbar-collapse-1{
+  margin-top: 20px;
+}
+.dropdown{
+  color: #2F4858;
+}
+
+.dropdown-toggle{
+  color: #2F4858;
+}
+.menu_item {
+  margin: 10 px;
+  padding: 10px;
+  width: 20 px;
+} 
+
+
+/* 사이드 바 */
+nav.sidebar, .main{
+  -webkit-transition: margin 200ms ease-out;
+    -moz-transition: margin 200ms ease-out;
+    -o-transition: margin 200ms ease-out;
+    transition: margin 200ms ease-out;
+}
+
+.main{
+  padding: 10px 10px 0 10px;
+}
+
+@media (min-width: 765px) {
+
+  .main{
+    position: absolute;
+    width: calc(100% - 40px); 
+    margin-left: 40px;
+    float: right;
+  }
+
+  nav.sidebar:hover + .main{
+    margin-left: 200px;
+  }
+
+  nav.sidebar.navbar.sidebar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 0px;
+  }
+
+  nav.sidebar .navbar-brand, nav.sidebar .navbar-header{
+    text-align: center;
+    width: 100%;
+    margin-left: 0px;
+  }
+  
+  nav.sidebar a{
+    padding-right: 13px;
+  }
+
+  nav.sidebar .navbar-nav > li:first-child{
+    border-top: 1px #e5e5e5 solid;
+  }
+
+  nav.sidebar .navbar-nav > li{
+    border-bottom: 1px #e5e5e5 solid;
+  }
+
+  nav.sidebar .navbar-nav .open .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  nav.sidebar .navbar-collapse, nav.sidebar .container-fluid{
+    padding: 0 0px 0 0px;
+  }
+
+  .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+    color: #777;
+  }
+
+  nav.sidebar{
+    width: 200px;
+    height: 100%;
+    margin-left: -160px;
+    float: left;
+    margin-bottom: 0px;
+  }
+
+  nav.sidebar li {
+    width: 100%;
+  }
+
+  nav.sidebar:hover{
+    margin-left: 0px;
+  }
+
+  .forAnimate{
+    opacity: 0;
+  }
+
+  nav.numberBar{ /* 하단 페이지네이션 참고*/
+    margin-left: 12%;
+    width: 70%;
+    padding-left: 100px;
+    size: 80%;
+  }
+  .item{
+    width: 100px;
+    height:100px;
+  }
+  
+}
+
+@media (min-width: 1330px) {
+
+  .main{
+    width: calc(100% - 200px);
+    margin-left: 200px;
+  }
+
+  nav.sidebar{
+    margin-left: 0px;
+    float: left;
+  }
+
+  nav.sidebar .forAnimate{
+    opacity: 1;
+  }
+
+  nav.numberBar{ /* 하단 페이지네이션 참고*/
+    margin-left: 12%;
+    width: 70%;
+    padding-left: 200px;
+  }
+  .item_name{
+    font-family: 'Nanum Gothic';
+    font-style: normal;
+    font-weight: 800;
+    src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-ExtraBold.eot);
+    src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-ExtraBold.eot?#iefix) format('embedded-opentype'),
+         url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-ExtraBold.woff2) format('woff2'),
+         url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-ExtraBold.woff) format('woff'),
+         url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-ExtraBold.ttf) format('truetype');
+    text-align: center;
+  }
+  .item{
+    width: 150px;
+    height:150px;
+  }
+}
+
+nav.sidebar .navbar-nav .open .dropdown-menu>li>a:hover, nav.sidebar .navbar-nav .open .dropdown-menu>li>a:focus {
+  color: #CCC;
+  background-color: transparent;
+}
+
+nav:hover .forAnimate{
+  opacity: 1;
+}
+/* 사이드 바 */
+
+
+/* 상단 제목 : 귀농 관련 사이트 */
+h3{
+  margin-top: -2%;
+  margin-bottom: -7%;
+  /* 제목 밑줄 */
+  width: 80%;
+  height: 50px;
+  border-bottom: 1px solid green;
+  /* 제목 밑줄 */
+}
+  /* 상단 제목 : 귀농 관련 사이트 */
+section{
+  float: left;
+  width: 82%;
+  height: auto;
+  margin-top: 5%;
+  margin-left: 8%;
+}
+.main_img {
+  width: 100%;
+  height: 900px;
+  object-fit: cover;
+}
+.item_name{
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 800;
+  src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-ExtraBold.eot);
+  src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-ExtraBold.eot?#iefix) format('embedded-opentype'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-ExtraBold.woff2) format('woff2'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-ExtraBold.woff) format('woff'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-ExtraBold.ttf) format('truetype');
+  text-align: center;
+}
+.item_button{
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+.title_profit{
+  padding-left: 20px;
+  background-color: #F9FDCC;
+  width: 598px;
+}
+
+footer {
+  background-color: #F2F3CC;
+  height: 120px;
+  text-align: center;
+  padding: 45px;
+  position: relative;
+  clear: both;
+}
+
+.jumbotron {
+  max-width: 600px;	
+  margin: auto;	
+  margin-bottom: 20px;
+  border-radius: 30px;
+  height: 100px;
+  padding: 50px 70px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.jumbotron h1 {
+  margin-top: -15px;
+  font-weight: 800;
+  align-items: center;
+  text-align: center;
+  font-size: 32px;
+}
+
+/* Related with Form */
+
+/* BASIC */
+body {
+  font-family: "Nanum Gothic", sans-serif;
+  height: 100vh;  
+  background-color: #eee6c4;
+}
+
+.registration-form{
+  padding-top: 0;
+  padding-bottom: 50px;
+  margin: 0;
+  align-items: center;
+  text-align: center;
+}
+
+.registration-form form{
+  background-color: #fff;
+  max-width: 800px;
+  margin: auto;  
+  padding: 50px 70px;
+  border-radius: 30px; 
+}
+
+.registration-form .item{  
+  margin-bottom: 25px; 
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+}
+
+.registration-form .pw{    
+  margin-bottom: 25px; 
+  width: 75%;
+  position: relative;
+  display: inline-block;
+  height: 34px;
+  padding: 6px 12px;
+  margin-right: 7%;
+  font-size: 14px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+}
+
+.btn .btn-primary {  
+  align-items: center;
+  background-color: #56baed;    
+  border: none;
+  color: white;
+  padding: 8px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 13px;
+  border-radius: 5px 5px 5px 5px;
+  margin: 10px 10px 10px 100px;
+  width: 30%;
+  display: inline-block;
+}
+
+.registration-form .a{
+  margin-bottom: 25px;
+  bottom: auto;  
+}
+
+
+
+.registration-form .create-account{
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #56baed;
+  border: none;
+  color: white;
+  margin-top: 20px;
+}
+
+@media (max-width: 576px) {   
+  .registration-form .item{  
+    margin-bottom: 25px; 
+    width:auto;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+  }
+
+  .registration-form .pw{    
+    margin-bottom: 25px; 
+    width: 75%;
+    position: relative;
+    display: inline-block;
+    height: 34px;
+    padding: 6px 12px;
+    margin-right: 7%;
+    font-size: 14px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+  }
+
+  .btn .btn-primary {  
+    align-items: center;
+    background-color: #56baed;    
+    border: none;
+    color: white;
+    padding: 8px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    border-radius: 5px 5px 5px 5px;
+    margin: 10px 10px 10px 100px;
+  }
+  
+  .registration-form form{
+      padding: 50px 20px;
+      float: left;
+      display: block;
+  }
+
+  .registration-form .form-icon{
+      width: 70px;
+      height: 70px;
+      font-size: 30px;
+      line-height: 70px;
+  }
+}

@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* 구분 기관 주소  */
+th{
+  text-align:center;
+  font-size: 15px; 
+  }
+  
+  
+  /* 테이블 */
+  table{
+    margin-top: 15%;
+    margin-right: 50%;
+    height: 70%;
+  }
+    
+  /* 테이블 1번째줄 */
+  td.Sortation{
+    text-align:center;
+    font-size: 18px;
+  }
+  /* 테이블 1번째줄 */
+    
+  /* 테이블 2번째줄 */
+  td.Institution{
+    text-align:center;
+  }
+  /* 테이블 2번째줄 */
+  /* 테이블 */
+
+  
+  
+  /* 내용의 폰트 색상 등을 변경 */
+  a:link{
+    color : black;
+  }
+  a:visited {
+    color : black;
+    text-decoration: none;
+  }
+  
+  
+  /* 글리피콘 */
+   table span.glyphicon.glyphicon-home{
+      color: green;
+    }
